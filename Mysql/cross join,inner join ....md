@@ -30,3 +30,4 @@ ORDER BY a.store_name ;
 # left join
 
 - 以sql语句中左边的表为主要表关联右边的表
+
