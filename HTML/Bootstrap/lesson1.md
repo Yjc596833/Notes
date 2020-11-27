@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-11-23 11:58:00
- * @LastEditTime: 2020-11-23 20:32:47
+ * @LastEditTime: 2020-11-25 10:59:58
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \Notes\HTML\Bootstrap\lesson1.md
@@ -59,3 +59,15 @@ https://getbootstrap.com/docs/4.0/utilities/display/#hiding-elements
 - flex弹性布局（推荐）
 - rem适配布局（推荐）
 - 响应式布局
+
+
+```
+SHIFT + CTRL + 鼠标
+
+SHIFT + ALT  +  F   对齐
+
+```
+
+```
+Bootstrap4 中 偏移 直接 offset-md-*
+```
