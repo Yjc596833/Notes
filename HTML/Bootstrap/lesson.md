@@ -21,7 +21,8 @@
 #### 偏移 
 ```
 <div class="col-md-4 col-md-offset-4"></div>
-col-md-offset-4 向右偏移4单位
+col-md-offset-4 向右偏移4单位  bootstrap3
+offset-md-4 向右偏移4单位  bootstrap3
 ```
 
 ```
