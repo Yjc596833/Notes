@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-01-19 12:00:58
- * @LastEditTime: 2021-02-23 13:28:31
+ * @LastEditTime: 2021-03-03 15:38:33
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \Notes\WeiBo\JQ组件.md
@@ -68,4 +68,30 @@
     <span class="S-fb12 S-icon margin-left-15 W-fb500">同时转发</span>
 </label>
 
+```
+
+
+####  scroll-div 
+```
+    $(document).find('.scroll-modal-container').scroll(function(){
+        /* scroll-modal-container */
+        let scrollModalContainerHeight=$(document).find('.replyDetail-view .scroll-modal-container').height();//滚动视图高度
+        scrollModalHeight=$(this)[0].scrollHeight;
+        scrollModalTop=$(this)[0].scrollTop;
+        if(scrollModalTop+scrollModalContainerHeight>=scrollModalHeight-40){
+            console.log(replyOptions)
+            renderReplySortlist(replyOptions);
+        } //因为scroll-modal-container的上下内边距是
+    })    
+```
+
+
+#### 遮盖层常用样式
+```
+    eg1:
+    .wpv-picture-hover{
+        filter: opacity(0);
+        pointer-events: none;
+        background-color: rgba(0, 0, 0, 0.15);
+    }
 ```
