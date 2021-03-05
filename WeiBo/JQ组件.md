@@ -2,6 +2,7 @@
  * @Author: your name
  * @Date: 2021-01-19 12:00:58
  * @LastEditTime: 2021-02-23 13:28:31
+ * @LastEditTime: 2021-03-04 13:11:08
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \Notes\WeiBo\JQ组件.md
@@ -69,3 +70,40 @@
 </label>
 
 ```
+```
+
+
+####  scroll-div 
+```
+    $(document).find('.scroll-modal-container').scroll(function(){
+        /* scroll-modal-container */
+        let scrollModalContainerHeight=$(document).find('.replyDetail-view .scroll-modal-container').height();//滚动视图高度
+        scrollModalHeight=$(this)[0].scrollHeight;
+        scrollModalTop=$(this)[0].scrollTop;
+        if(scrollModalTop+scrollModalContainerHeight>=scrollModalHeight-40){
+            console.log(replyOptions)
+            renderReplySortlist(replyOptions);
+        } //因为scroll-modal-container的上下内边距是
+    })    
+```
+
+
+#### 遮盖层常用样式
+```
+    eg1:
+    .wpv-picture-hover{
+        filter: opacity(0);
+        pointer-events: none;
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+```
+
+#### JS返回当前时间
+```
+tools.js
+
+/*返回当前时间：
+ eg1: new TimeFormat("minute", curTime).currentTime；返回对应的时间格式样式：2021年3月4日 12:45
+ eg2: new TimeFormat("second", curTime).currentTime；返回对应的时间格式样式：2021年3月4日 12:45:36
+ */
+ ```
