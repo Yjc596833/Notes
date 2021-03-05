@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-01-19 12:00:58
- * @LastEditTime: 2021-03-03 15:38:33
+ * @LastEditTime: 2021-03-04 13:11:08
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \Notes\WeiBo\JQ组件.md
@@ -95,3 +95,13 @@
         background-color: rgba(0, 0, 0, 0.15);
     }
 ```
+
+#### JS返回当前时间
+```
+tools.js
+
+/*返回当前时间：
+ eg1: new TimeFormat("minute", curTime).currentTime；返回对应的时间格式样式：2021年3月4日 12:45
+ eg2: new TimeFormat("second", curTime).currentTime；返回对应的时间格式样式：2021年3月4日 12:45:36
+ */
+ ```
