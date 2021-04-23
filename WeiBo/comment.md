@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-03-02 12:07:06
- * @LastEditTime: 2021-03-03 15:39:22
+ * @LastEditTime: 2021-03-11 17:44:12
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \Notes\WeiBo\yjcomment.md
@@ -61,3 +61,13 @@ window.yjccommon.operationWPVView({ icon: "error", msg: "操作失败，请稍�
 
 ######controller:
 /BlogComment/CommentLikesOperations
+```
+
+
+
+```  html
+######显示转发@人物关系和信息关系：
+
+######controller:
+/Home/GetForwardRelation
+```
